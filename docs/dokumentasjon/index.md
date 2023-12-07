@@ -1,4 +1,4 @@
-# Om dokumemntasjonen
+# Om dokumentasjonen
 
 Her kan det stå noe om dokumentasjonen. En slags landingsside eller noe slikt. 🎉
 
