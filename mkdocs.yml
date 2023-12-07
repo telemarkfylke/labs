@@ -1,0 +1,19 @@
+site_name: labs@telemarkfylke
+
+theme:
+  name: material
+  language: nb
+  logo: images/Telemark_logo.png
+  favicon: images/Telemark_logo.png
+  features:
+    - navigation.tabs
+    - search.suggest
+
+plugins: 
+  - search
+  - blog:
+      post_date_format: medium
+      post_url_date_format: yyyy
+
+repo_url: https://github.com/telemarkfylke/labs
+repo_name: telemarkfylke/labs
