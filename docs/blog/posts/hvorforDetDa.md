@@ -9,7 +9,8 @@ categories:
 
 # Hvorfor labs? 
 
-![Temmelig stygg AI-generert logo](./images/logo.png) 
+![Temmelig stygg AI-generert logo](./images/logo.png)
+
 ## Skape en ramme for å utforske nye løsninger
 Gjennom en et formelt konsept kan vi skape en arena hvor gode idéer og vonde vondter kan samles. 
 
