@@ -6,7 +6,7 @@ theme:
   logo: images/Telemark_logo.png
   favicon: images/Telemark_logo.png
   features:
-    - navigation.tabs
+    - toc.integrate
     - search.suggest
 
 plugins: 
