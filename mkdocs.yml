@@ -14,7 +14,6 @@ plugins:
   - blog:
       post_date_format: medium
       post_url_date_format: yyyy
-  - mkdocs-jupyter
 
 repo_url: https://github.com/telemarkfylke/labs
 repo_name: telemarkfylke/labs
