@@ -11,7 +11,7 @@ categories:
 
 # Transkripsjon av fylkesting med hjelp fra Nasjonalbiblioteket
 
-**Hvem skulle tro at et bibliotek, ja selveste Nasjonalbiblioteket, skulle bli en av landets mest innovative aktører innen språkteknologi! I tillegg [deler de villig vekk](https://www.nb.no/pressemeldinger/nasjonalbiblioteket-deler-kunstig-intelligens-som-skjoner-norske-dialekter-og-gjer-tale-om-til-tekst/) sine ressurser og kunnskap til felleskapets beste. Det er jo helt fantastisk! Bruksområdene er mange så la oss se på hva Nasjonalbiblioteket har gjort som gjør at dette er så aktuelt og spennende for oss i Telemark fylkeskommune?**
+**Hvem skulle tro at et bibliotek, ja selveste Nasjonalbiblioteket, skulle bli en av landets mest innovative aktører innen språkteknologi! I tillegg [deler de villig vekk](https://www.nb.no/pressemeldinger/nasjonalbiblioteket-deler-kunstig-intelligens-som-skjoner-norske-dialekter-og-gjer-tale-om-til-tekst/) sine ressurser og kunnskap til felleskapets beste. Det er jo helt fantastisk! Bruksområdene er mange så la oss se på hva Nasjonalbiblioteket har gjort som gjør at dette er så aktuelt og spennende for oss i Telemark fylkeskommune.**
 
 ## Språkmodeller med norske treningsdata er mangelvare
 Det siste året har det kommet en rekke [språkmodeller](https://snl.no/spr%C3%A5kmodell) som imponerer med sine evner til å generere tekst. Problemene er bare at de fleste av disse modellene er trent på engelskspråklig tekst, noe som gjør at de ikke er like gode til å generere norsk tekst. Dessverre er det veldig dyrt og ressurskrevene å trene opp en språkmodell fra bunnen av, og det er derfor ingen som har gjort dette for norsk språk. Sannsynligvis vil det heller ikke skje med første.
