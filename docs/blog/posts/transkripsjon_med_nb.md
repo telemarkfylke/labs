@@ -31,7 +31,7 @@ Treningsdataene som er brukt stammer fra [Språkbanken](https://www.nb.no/sprakb
 Det er mange bruksområder for en slik modell i fylkeskommunen. En av de mest åpenbare er å transkribere møter og samtaler. Dette kan være nyttig for å lage referater eller for å gjøre møter tilgjengelig for de som ikke har mulighet til å delta.
 
 ![Taler](./images/Artikler/Transkripsjon_NB/fylkesting_taler.png)
-_Bilde: Fylkesordfører Terje Riis Johansen taler på det siste fylkestinget i Vestfold og Telemark fylkeskommunes historie _
+_Bilde: Fylkesordfører Terje Riis Johansen taler på det siste fylkestinget i Vestfold og Telemark fylkeskommunes historie_
 
  En annen mulighet er å transkribere opptak av forelesninger eller undervisning. Dette kan være nyttig for å lage tekstbaserte notater eller for å gjøre undervisningen tilgjengelig for de som ikke har mulighet til å delta fysisk. Dette kan gjøres allerede i dag med mange av de kommersielle tjenestene, men disse er ofte basert på engelskspråklige modeller og fungerer derfor ikke like godt på norsk.
 
