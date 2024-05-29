@@ -1,0 +1,1012 @@
+
+<!doctype html>
+<html lang="nb" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../kunstig-inteligens/">
+      
+      
+        <link rel="next" href="../../archive/2024/">
+      
+      
+      <link rel="icon" href="../../../images/Telemark_logo.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.25">
+    
+    
+      
+        <title>Tanker - labs@telemarkfylke</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.6543a935.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tanker" class="md-skip">
+          Gå til innhold
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="labs@telemarkfylke" class="md-header__button md-logo" aria-label="labs@telemarkfylke" data-md-component="logo">
+      
+  <img src="../../../images/Telemark_logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            labs@telemarkfylke
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tanker
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Søk" placeholder="Søk" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Søk">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Nullstill" aria-label="Nullstill" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Starter søk
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/telemarkfylke/labs" title="Gå til kilde" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    telemarkfylke/labs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigasjon" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="labs@telemarkfylke" class="md-nav__button md-logo" aria-label="labs@telemarkfylke" data-md-component="logo">
+      
+  <img src="../../../images/Telemark_logo.png" alt="logo">
+
+    </a>
+    labs@telemarkfylke
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/telemarkfylke/labs" title="Gå til kilde" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    telemarkfylke/labs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Om labs@telemark
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Blog
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Blog
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Velkommen til bloggen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Arkiv
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Arkiv
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../archive/2024/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2024
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../archive/2023/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2023
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Kategorier
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Kategorier
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../hello-world/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hello World
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../informasjon/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Informasjon
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../kunstig-inteligens/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kunstig inteligens
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    
+      
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Tanker
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Dokumentasjon
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Dokumentasjon
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../dokumentasjon/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Om dokumentasjonen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Azure
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Azure
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../dokumentasjon/Azure/function-app/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Function app
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Prosjekter
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Prosjekter
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Veilys
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            Veilys
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../prosjekter/veilys/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    💡 Veilys 💡
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+  <div class="md-content" data-md-component="content">
+    <div class="md-content__inner">
+      <header class="md-typeset">
+        <h1 id="tanker">Tanker</h1>
+      </header>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://github.com/fuzzbin.png" alt="Tom Jarle Christiansen">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2024-05-28 00:00:00">28. mai 2024</time></li>
+        
+          <li class="md-meta__item">
+            i
+            
+              <a href="./" class="md-meta__link">Tanker</a>, 
+              <a href="../informasjon/" class="md-meta__link">Informasjon</a>, 
+              <a href="../kunstig-inteligens/" class="md-meta__link">Kunstig inteligens</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              lesetid: 4 min
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="transkripsjon-av-fylkesting-med-hjelp-fra-nasjonalbiblioteket"><a class="toclink" href="../../2024/transkripsjon-av-fylkesting-med-hjelp-fra-nasjonalbiblioteket/">Transkripsjon av fylkesting med hjelp fra Nasjonalbiblioteket</a></h2>
+<p><strong>Hvem skulle tro at et bibliotek, ja at selveste Nasjonalbibliotekethar tatt steget inn i fremtiden og blitt en av landets mest innovative aktører på kunstig inteligens og språkteknologi. Og det beste av alt? De <a href="https://www.nb.no/pressemeldinger/nasjonalbiblioteket-deler-kunstig-intelligens-som-skjoner-norske-dialekter-og-gjer-tale-om-til-tekst/">deler villig vekk</a> sine ressurser og kunnskap til felleskapets beste. Dette åpner opp for en rekke spennende bruksområder, og vi i Telemark fylkeskommune er ivrige etter å utforske mulighetene som Nasjonalbibliotekets flotte arbeid byr på.</strong></p>
+<h3 id="sprakmodeller-med-norske-treningsdata-er-mangelvare"><a class="toclink" href="../../2024/transkripsjon-av-fylkesting-med-hjelp-fra-nasjonalbiblioteket/#sprakmodeller-med-norske-treningsdata-er-mangelvare">Språkmodeller med norske treningsdata er mangelvare</a></h3>
+<p>Det siste året har det kommet en rekke <a href="https://snl.no/spr%C3%A5kmodell">språkmodeller</a> som imponerer med sine evner til å generere tekst. Problemene er bare at de fleste av disse modellene er trent på engelskspråklig tekst, noe som gjør at de ikke er like gode til å generere norsk tekst. Dessverre er det veldig dyrt og ressurskrevene å trene opp en språkmodell fra bunnen av, og det er derfor ingen som har gjort dette for norsk språk. Sannsynligvis vil det heller ikke skje med første.</p>
+<p>Heldigvis finnes det teknikker som gjør at man kan ta en eksisterende språkmodell og "finjustere" den på norsk tekst. Det er akkurat det som er gjort med <a href="https://huggingface.co/norallm">NoraLLM</a>. Den er basert på en den franske språkmodellen <a href="https://mistral.ai/">Mistral</a>, men er trent videre på norsk tekst. Dette gjør at den er bedre egnet til å generere norsk tekst enn de store internasjonale modellene.</p>
+<h3 id="andre-typer-ki-modeller"><a class="toclink" href="../../2024/transkripsjon-av-fylkesting-med-hjelp-fra-nasjonalbiblioteket/#andre-typer-ki-modeller">Andre typer KI-modeller</a></h3>
+<p>Det finnes mange typer KI-modeller. Språkmodeller (LLM'er) er bare en av mange. For å transkribere tale til tekst brukes det en type modell som kalles en talegjenkjenner eller på engelsk <a href="https://openai.com/index/whisper/">automatic speach recognition (ASR)</a>. Denne typen modell er trent på store mengder taleopptak og kan derfor gjenkjenne tale og skrive den ned som tekst. Nasjonalbiblioteket har tatt <a href="https://openai.com/index/whisper/">utgangspunkt</a> i en slik modell og trent den videre på store mengder norske data. Dette gjør at modellen er <a href="https://www.tek.no/nyheter/nyhet/i/3ELqAq/ai-transkriberer-norsk-tale-nesten-like-godt-som-mennesker">mye bedre egnet til å transkribere norsk tale</a> enn de store internasjonale modellene.</p>
+<p>Treningsdataene som er brukt stammer fra <a href="https://www.nb.no/sprakbanken/">Språkbanken</a> og Nasjonalbiblioteket sin digitale samling, og inkluderer:</p>
+<ul>
+<li><a href="https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-13/">NST norsk ATG-database</a></li>
+<li><a href="Stortingskorpuset 2.0">Stortingskorpuset</a></li>
+<li><a href="https://www.nb.no/en/the-collection/">TV-programmer (NRK) med teksting</a></li>
+<li><a href="https://www.nb.no/en/the-collection/">Lydbøker</a></li>
+</ul>
+<p>Det er mange bruksområder for en slik modell i fylkeskommunen. En av de mest åpenbare er å transkribere møter og samtaler. Dette kan være nyttig for å lage referater eller for å gjøre møter tilgjengelig for de som ikke har mulighet til å delta.</p>
+<p><img alt="Taler" src="../../images/Artikler/Transkripsjon_NB/fylkesting_taler.png" />
+<em>Bilde: Daværende fylkesordfører Terje Riis Johansen taler på det siste fylkestinget i Vestfold og Telemark fylkeskommunes historie</em></p>
+<p>En annen mulighet er å transkribere opptak av forelesninger eller undervisning. Dette kan være nyttig for å lage tekstbaserte notater eller for å gjøre undervisningen tilgjengelig for de som ikke har mulighet til å delta fysisk. Dette kan gjøres allerede i dag med mange av de kommersielle tjenestene, men disse er ofte basert på engelskspråklige modeller og fungerer derfor ikke like godt på norsk.</p>
+<h3 id="eksempel-pa-transkripsjon-av-et-fylkesting"><a class="toclink" href="../../2024/transkripsjon-av-fylkesting-med-hjelp-fra-nasjonalbiblioteket/#eksempel-pa-transkripsjon-av-et-fylkesting">Eksempel på transkripsjon av et fylkesting</a></h3>
+<p>For å vise hvor godt en slik modell kan fungere er det tatt utgangspunkt i et <a href="https://vimeo.com/showcase/10095638/video/890987112">opptak av det siste fylkestinget som ble avholdt i tidligere Vestfold og Telemark fylkeskommune</a>. Møtet har et ganske komplekst lydbilde med flere ulike stemmer, visning av film og tale med ganske markert dialekt.</p>
+<p><img alt="Transkripsjon" src="../../images/Artikler/Transkripsjon_NB/eksempel1_srt.png" />
+<em>Bilde: Utdrag fra transkripsjon av fylkestingsmøte gjort med Nasjonalbiblioteket sin modell.</em></p>
+<p>Når man har en transkripsjon av god kvalitet kan denne brukes som utgangspunkt for å lage referater, søke i opptak eller for å lage tekstbaserte notater. Dette kan være nyttig for å gjøre møter og forelesninger tilgjengelig for flere, på ulike språk, forenklet språk, eller for å lage referater som kan deles med de som ikke har mulighet til å delta.</p>
+<p>For å lage gode sammenstillinger av transkripsjoner kan en man benytte en annen type KI-modell som vi kjenner som  språkmodeller. Utsnitter under er en automatisk generert sammenstilling av transkripsjonen fra fylkestinget.</p>
+<p><img alt="Oppsummering" src="../../images/Artikler/Transkripsjon_NB/oppsummering_tekst.png" />
+<em>Bilde: Eksempel oppsummering laget av en språkmodell</em></p>
+<h3 id="mulighetene-er-mange"><a class="toclink" href="../../2024/transkripsjon-av-fylkesting-med-hjelp-fra-nasjonalbiblioteket/#mulighetene-er-mange">Mulighetene er mange</a></h3>
+<p>Som fylkeskommune har vi et særlig ansvar for å benytte oss av ny teknologi for å gjøre tjenestene våre bedre og mer tilgjengelige. I tillegg bør vi tilstrebe oss å bruke teknologi som er laget på en etisk forsvarlig måte og som bygger opp under felleskapets verdier. Dette kan gjøres ved å velge KI-modeller som er trent på norske data og som er laget av aktører som deler sine ressurser og kunnskap med felleskapet uten å bryte med personvern og opphavsrettigheter. I tillegg er vi med på å støtte opp om norsk språkteknologi og bidra til at vi får bedre tjenester og produkter på norsk. Ved å bruke mindre, men spesialiserte modeller, kan vi også bidra til en mer bærekraftig utvikling av KI-teknologi som bruker mindre energi og ressurser ved å lage tjenester som kjører lokalt.</p>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://github.com/fuzzbin.png" alt="Tom Jarle Christiansen">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2024-04-30 00:00:00">30. apr. 2024</time></li>
+        
+          <li class="md-meta__item">
+            i
+            
+              <a href="./" class="md-meta__link">Tanker</a>, 
+              <a href="../informasjon/" class="md-meta__link">Informasjon</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              lesetid: 5 min
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="da-nora-ble-en-sprakmodell"><a class="toclink" href="../../2024/da-nora-ble-en-spr%C3%A5kmodell/">Da Nora ble en språkmodell</a></h2>
+<p>En ganske vanlig fredag i april 2024 ble <a href="https://huggingface.co/norallm">NoraLLM</a> lansert. En nyhet som kanskje gikk under radaren for mange, men på samme tid var dette en milepæl for norsk språkteknologi. NoraLLM er en språkmodell som er trent på en stor mengde norsk tekst. Den kan brukes til å generere tekst, svare på spørsmål og utføre en rekke andre språklige oppgaver. Frem til nå har de tilgjengelige språkmodellene hovedsaklig vært trent på engelskspråklig tekst. Dette har medført at tjenester som ChatGPT og tilsvarende tjenester fungerer dårligere på norsk enn på engelsk. En annet problem med språkmodeller er at de har en tendens til å forsterke skjevheter og fordommer som finnes i datasettene de er trent på. Dette gjelder alle språkmodeller. Det er derfor viktig at man er bevisst på hvilke egenskaper modellene har og hvilke data de er trent på før man benytter seg av denne teknologien.</p>
+<p><strong>Bildene under viser hvordan tre ulike språkmodeller responderer på samme ledetekst. I alle tre eksemplene er ledeteksten: "Lag en kort disposisjon på hvordan et stev bør se ut."</strong></p>
+<p><img alt="OpenAI om Stev" src="../../images/Artikler/DaNoraBleLLM/Stev_GPT3.png" />
+<img alt="OpenAI om Stev" src="../../images/Artikler/DaNoraBleLLM/Stev_GPT4.png" />
+<img alt="OpenAI om Stev" src="../../images/Artikler/DaNoraBleLLM/Stev_Nora.png" /></p>
+<p><em>Responsene er generert av henholdsvis GPT-3, GPT-4 og NoraLLM.  Disse eksemplene illustrerer hvordan ulikt trente modeller vil respondere forskjellig på samme ledetekst.</em></p>
+<h3 id="hvorfor-er-dette-viktig-for-oss"><a class="toclink" href="../../2024/da-nora-ble-en-spr%C3%A5kmodell/#hvorfor-er-dette-viktig-for-oss">Hvorfor er dette viktig for oss?</a></h3>
+<p>Umiddelbart kan det virke som om en norsk språkmodell ikke har så stor betydning for oss i fylkeskommunen. På sikt kan det derimot prege hvordan vi løser oppgavene våre. En norsk språkmodell har mange bruksområder og kan være et nyttig verktøy for å automatisere manuelle oppgaver eller for å forbedre eksisterende tjenester. Eksempler på dette kan være å generere tekst til nettsider, svare på spørsmål fra innbyggere, kategorisere og søke i dokumenter eller skrive sammendrag. En språkmodell kan også brukes til å analysere tekst, for eksempel for å finne mønstre eller trender i store mengder tekst. En norsk modell vil følgelig kunne gjøre dette på en enda bedre måte enn en engelsk modell.</p>
+<p>For å kunne realisere gode tjenester og lage magi er det derfor viktig at vi har tilgang til en god norsk språkmodell. Den vil være bedre egnet til å "forstå" og generere norsk tekst enn en engelsk språkmodell. Dette vil igjen føre til bedre resultater og en bedre brukeropplevelse for innbyggerne. I tillegg vil en norsk språkmodell være bedre egnet til å håndtere språklige trekk og kulturelle referanser som finnes i norsk tekst.</p>
+<p><strong>Før slike tjenester kan realiseres må vi i felleskap teste, utforske, feile og lære. Vi må sammen reflektere rundt etiske, juridiske og sikkerhetsmessige konsekvenser av å ta i bruk denne teknologien. Dette er en prosess som tar tid og krever ressurser, men som det er viktig at gjøres skikkelig og i fellesskap. Men så... kan vi høste gevinster!</strong></p>
+<h3 id="etikk-og-opphavsrettigheter"><a class="toclink" href="../../2024/da-nora-ble-en-spr%C3%A5kmodell/#etikk-og-opphavsrettigheter">Etikk og opphavsrettigheter</a></h3>
+<p>En annen viktig problemstilling med de store internasjonale språkmodellene er at de er trent på store mengder data som er samlet inn fra det åpne internett eller andre kilder vi ikke vet så mye om. Selskapene er heller ikke åpne på hvilke informasjonskilder som inngår i treningsdataene. Dette betyr at de kan inneholde upassende eller støtende innhold, eller at de kan forsterke skjevheter og fordommer som finnes i datasettet. Dette er et stort problem med tanke på personvern og informasjonssikkerhet, og det er derfor viktig at vi har tilgang til en norsk språkmodell som er trent på en mer kontrollert og etisk forsvarlig måte. Heldigvis finnes det allerede mye data som er kvalitetssikret både språklig og med tanke på opphavsrettigheter. <a href="https://ai.nb.no/datasets/">Norwegian Colossal Corpus</a> er et stort datasett på 45GB som er en samling av mange mindre norske datasett fra tidsskrifter, nasjonalbiblioteket, offentlig forvaltning m.m. Datasettet er sammenstillt og tilgjengeliggjort av <a href="https://ai.nb.no/">Nasjonalbiblioteket sin AI-lab</a>. Denne typen datasett vil bli viktig når man fremover skal trene bedre norske språkmodeller. Da har man i større grad kontroll på innhold, kilder, kvalitet og opphavsrettigheter.</p>
+<h3 id="dra-meg-baklengs-inn-i"><a class="toclink" href="../../2024/da-nora-ble-en-spr%C3%A5kmodell/#dra-meg-baklengs-inn-i">Dra meg baklengs inn i...</a></h3>
+<p>De aller fleste som har vokst opp i Norge vil ganske enkelt klare å fullføre denne setningen. For en språkmodell er ikke dette like åpenbart. Spesielt hvis treningsdataene ikke gjenspeiler dette.</p>
+<p><strong>ChatGPT sin respons:</strong>
+<img alt="Fuglekassa" src="../../images/Artikler/DaNoraBleLLM/ChatVTFK_Fuglekassa.png" /></p>
+<p><strong>NoraLLM sin respons:</strong>
+<img alt="Fuglekassa" src="../../images/Artikler/DaNoraBleLLM/Nora_Fuglekassa.png" /></p>
+<h3 id="hva-kan-vi-bruke-norallm-til"><a class="toclink" href="../../2024/da-nora-ble-en-spr%C3%A5kmodell/#hva-kan-vi-bruke-norallm-til">Hva kan vi bruke NoraLLM til?</a></h3>
+<p>I første omgang så må vi tenke på NoraLLM som en tidlig og litt umoden utgave av en norsk språkmodell. Den er ikke like avansert som de store språkmodellene som <a href="https://openai.com/chatgpt">ChatGPT</a>, <a href="https://www.anthropic.com/claude">Claude</a> og <a href="https://deepmind.google/technologies/gemini/#introduction">Gemini</a>, men den har allikevel noen kvaliteter som gjør den interessant. Det å på sikt kunne tilby en norsk språkmodell der det er mye større åpenhet rundt treningsdataene og opphavsrettigheter er en stor fordel. Det er stor interesse for å bruke språkmodeller i undervisningen, og vi tror at NoraLLM kan være et skritt i riktig retning for bruk i skolen.</p>
+<p>En annen fordel med NoraLLM er at den er såpass liten at den kan kjøres på en (nesten) vanlig datamaskin. Dette betyr at vi kan eksperimentere med språkmodellen uten å være avhengig av store ressurser eller eksterne tjenester. I tillegg så slipper vi å sende data ut av organisasjonen for å få tilgang til en språkmodell, noe som kan være avgjørende med tanke på personvern og informasjonssikkerhet.</p>
+<p>Det er spennende tider, og KI er på alles lepper. Vi kan ikke og bør ikke bruke KI til alt, men det er uansett nyttig å reflektere litt over hvilke muligheter og ikke minst hvilke konsekvenser som kommer i kjølvannet av denne teknologien.</p>
+<p>Hvis vi ikke gjør det så så risikerer vi å bli sittende med skjegget i <em>en bøtte med pasta</em> ;-)</p>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://github.com/fuzzbin.png" alt="Tom Jarle Christiansen">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-12-07 00:00:00">7. des. 2023</time></li>
+        
+          <li class="md-meta__item">
+            i
+            
+              <a href="./" class="md-meta__link">Tanker</a>, 
+              <a href="../informasjon/" class="md-meta__link">Informasjon</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              lesteid: 1 min
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="nye-fylkeskommuner-bygges"><a class="toclink" href="../../2023/nye-fylkeskommuner-bygges/">Nye fylkeskommuner bygges</a></h2>
+<p>...og her kommer vi på utviklingsavdelingen til å skrive om hvordan vi jobber med å utvikle nye digitale tjenester og få et innblikk i noen av tingene vi tester ut. Alt innhold er skrevet av og for mennesker 🤩🎉</p>
+<p><img alt="Dokumentasjonsbiblioteket" src="../../images/techlib2.png" /> </p>
+<h3 id="hva-er-labstelemark"><a class="toclink" href="../../2023/nye-fylkeskommuner-bygges/#hva-er-labstelemark">Hva er labs@telemark?</a></h3>
+<p>Vi ønsker å være en kreativ sandkasse for eksperimentelle prosjekter og teknologisk magi. Vi er en sammensatt gjeng som jobber med å lage gode digitale tjenester for <em>hele</em> fylkeskommunen. Vi jobber med kode, design, arkitektur, brukeropplevelse, testing, drift, sikkerhet og mye mer. ...og vi liker å ha det gøy på jobb!</p>
+    
+  </div>
+</article>
+      
+      
+        
+          
+
+
+
+<nav class="md-pagination">
+  
+</nav>
+        
+      
+    </div>
+  </div>
+
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["toc.integrate", "search.suggest"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Kopiert til utklippstavlen", "clipboard.copy": "Kopier til utklippstavlen", "search.result.more.one": "1 til p\u00e5 denne siden", "search.result.more.other": "# flere p\u00e5 denne siden", "search.result.none": "Ingen treff", "search.result.one": "1 treff", "search.result.other": "# treff", "search.result.placeholder": "Skriv s\u00f8keord", "search.result.term.missing": "Mangler", "select.version": "Velg versjon"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.081f42fc.min.js"></script>
+      
+    
+  </body>
+</html>
