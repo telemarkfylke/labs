@@ -11,7 +11,7 @@ categories:
 
 # Transkripsjon av fylkesting med hjelp fra Nasjonalbiblioteket
 
-**Hvem skulle tro at et bibliotek, ja selveste Nasjonalbiblioteket, skulle bli en av landets mest innovative aktører innen språkteknologi! I tillegg [deler de villig vekk](https://www.nb.no/pressemeldinger/nasjonalbiblioteket-deler-kunstig-intelligens-som-skjoner-norske-dialekter-og-gjer-tale-om-til-tekst/) sine ressurser og kunnskap til felleskapets beste. Det er jo helt fantastisk! Bruksområdene er mange så la oss se på hva Nasjonalbiblioteket har gjort som gjør at dette er så aktuelt og spennende for oss i Telemark fylkeskommune.**
+**Hvem skulle tro at et bibliotek, ja at selveste Nasjonalbibliotekethar tatt steget inn i fremtiden og blitt en av landets mest innovative aktører på kunstig inteligens og språkteknologi. Og det beste av alt? De [deler villig vekk](https://www.nb.no/pressemeldinger/nasjonalbiblioteket-deler-kunstig-intelligens-som-skjoner-norske-dialekter-og-gjer-tale-om-til-tekst/) sine ressurser og kunnskap til felleskapets beste. Dette åpner opp for en rekke spennende bruksområder, og vi i Telemark fylkeskommune er ivrige etter å utforske mulighetene som Nasjonalbibliotekets flotte arbeid byr på.**
 
 ## Språkmodeller med norske treningsdata er mangelvare
 Det siste året har det kommet en rekke [språkmodeller](https://snl.no/spr%C3%A5kmodell) som imponerer med sine evner til å generere tekst. Problemene er bare at de fleste av disse modellene er trent på engelskspråklig tekst, noe som gjør at de ikke er like gode til å generere norsk tekst. Dessverre er det veldig dyrt og ressurskrevene å trene opp en språkmodell fra bunnen av, og det er derfor ingen som har gjort dette for norsk språk. Sannsynligvis vil det heller ikke skje med første.
@@ -19,7 +19,7 @@ Det siste året har det kommet en rekke [språkmodeller](https://snl.no/spr%C3%A
 Heldigvis finnes det teknikker som gjør at man kan ta en eksisterende språkmodell og "finjustere" den på norsk tekst. Det er akkurat det som er gjort med [NoraLLM](https://huggingface.co/norallm). Den er basert på en den franske språkmodellen [Mistral](https://mistral.ai/), men er trent videre på norsk tekst. Dette gjør at den er bedre egnet til å generere norsk tekst enn de store internasjonale modellene.
 
 ## Andre typer KI-modeller
-Det finnes mange typer KI-modeller, og språkmodeller er bare en av mange. For å transkribere tale til tekst brukes det en annen type modell som kalles en talegjenkjenner eller på engelsk [automatic speach recognition (ASR)](https://openai.com/index/whisper/). Denne typen modell er trent på store mengder taleopptak og kan derfor gjenkjenne tale og skrive den ned som tekst. Nasjonalbiblioteket har tatt [utgangspunkt](https://openai.com/index/whisper/) i en slik modell og trent den videre på store mengder norske data. Dette gjør at modellen er [mye bedre egnet til å transkribere norsk tale](https://www.tek.no/nyheter/nyhet/i/3ELqAq/ai-transkriberer-norsk-tale-nesten-like-godt-som-mennesker) enn de store internasjonale modellene.
+Det finnes mange typer KI-modeller. Språkmodeller (LLM'er) er bare en av mange. For å transkribere tale til tekst brukes det en type modell som kalles en talegjenkjenner eller på engelsk [automatic speach recognition (ASR)](https://openai.com/index/whisper/). Denne typen modell er trent på store mengder taleopptak og kan derfor gjenkjenne tale og skrive den ned som tekst. Nasjonalbiblioteket har tatt [utgangspunkt](https://openai.com/index/whisper/) i en slik modell og trent den videre på store mengder norske data. Dette gjør at modellen er [mye bedre egnet til å transkribere norsk tale](https://www.tek.no/nyheter/nyhet/i/3ELqAq/ai-transkriberer-norsk-tale-nesten-like-godt-som-mennesker) enn de store internasjonale modellene.
 
 Treningsdataene som er brukt stammer fra [Språkbanken](https://www.nb.no/sprakbanken/) og Nasjonalbiblioteket sin digitale samling, og inkluderer:
 
@@ -31,7 +31,7 @@ Treningsdataene som er brukt stammer fra [Språkbanken](https://www.nb.no/sprakb
 Det er mange bruksområder for en slik modell i fylkeskommunen. En av de mest åpenbare er å transkribere møter og samtaler. Dette kan være nyttig for å lage referater eller for å gjøre møter tilgjengelig for de som ikke har mulighet til å delta.
 
 ![Taler](./images/Artikler/Transkripsjon_NB/fylkesting_taler.png)
-_Bilde: Fylkesordfører Terje Riis Johansen taler på det siste fylkestinget i Vestfold og Telemark fylkeskommunes historie_
+_Bilde: Daværende fylkesordfører Terje Riis Johansen taler på det siste fylkestinget i Vestfold og Telemark fylkeskommunes historie_
 
  En annen mulighet er å transkribere opptak av forelesninger eller undervisning. Dette kan være nyttig for å lage tekstbaserte notater eller for å gjøre undervisningen tilgjengelig for de som ikke har mulighet til å delta fysisk. Dette kan gjøres allerede i dag med mange av de kommersielle tjenestene, men disse er ofte basert på engelskspråklige modeller og fungerer derfor ikke like godt på norsk.
 

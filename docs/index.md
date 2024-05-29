@@ -1,8 +1,8 @@
 # Om labs@telemark
 
-**En kreativ sandkasse for eksperimentelle prosjekter og teknologisk magi**
+**Velkommen til labs@telemark - En kreativ sandkasse for eksperimentelle prosjekter og teknologisk magi**
 
-**Velkommen til labs@telemark** Her vil du finne innlegg, prosjekter og annet innhold. **Bruk menyen øverst for å komme til ønsket område**
+Her vil du finne innlegg, prosjekter og annet innhold. **Bruk menyen øverst for å komme til ønsket område**
 
 Vi har også en liten blog som vi publiserer nyttige og unyttige tanker på. Mest for å gi et innblikk i noen av tingene vi tester ut og jobber med på utviklingsavdelingen. Alt innhold er skrevet av og for mennesker 🤩
 
