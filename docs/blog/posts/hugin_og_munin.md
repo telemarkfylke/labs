@@ -63,7 +63,7 @@ Det er mange grunner til at vi ønsker å bruke NoraLLM i Hugin. En av de viktig
 
 Vi har delt noen flere tanker om NoraLLM i en annen [artikkel](norskllm.md), der det drøftes hvorfor det er viktig å bruke norske språkmodeller i offentlig sektor.
 
-En av styrkene til Hugin er at vi selv kan velge mellom språkmodeller, og på den måten la brukerne selv velge hvilken som passer best til oppgaven de skal løse. I tillegg kan vi bevege oss mot å bruke mindre, åpne og spesialiserte modeller som er mer bærekraftige og etisk riktige å bruke enn de store internasjonale modellene.
+En av styrkene til Hugin er at vi selv kan velge mellom språkmodeller, og på den måten la brukerne selv velge hvilken som passer best til oppgaven de skal løse. I tillegg kan vi bevege oss mot å bruke mindre, åpne og spesialiserte modeller som er mer bærekraftige, personvernvennlige og etisk riktige å bruke enn noen av de store internasjonale modellene.
 
 ## Hva er så medaljens bakside?
 Det finnes mange gode grunner til å bruke KI-teknologi. Det er et kraftig verktøy, men det er også alt. Et verktøy som er velegnet til å løse mange oppgaver, men uegnet til andre. Kunnskap om å bruke riktig og best mulig verktøy til oppgaven som skal løses er en viktig kompetanse. I tillegg fører KI-teknologien med seg en rekke utfordringer som det er viktig å være klar over og ta på alvor. Det er derfor helt avgjørende at det finnes kontrollmekanismer for ansvarlig bruk og etiske retningslinjer for bruk av KI-teknologi i organisasjonen. Dette er et stort og komplekst felt, men desto viktigere å ha på plass før man går "all in" på KI-teknologi.
