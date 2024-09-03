@@ -9,7 +9,7 @@ categories:
   - Kunstig inteligens
 ---
 
-# ChatVTFK er død, leve Hugin! (...og Munin!)
+# ChatVTFK er død, leve Hugin og Munin!
 
 **For omtrent for ett år siden ble ChatVTFK lansert som en av landets første KI-tjenester beregnet på elever og lærere i de vidergående skolene. Som vi alle vet så er den gamle fylkeskommunen historie, og med den, også tjenesten ChatVTFK.**
 
