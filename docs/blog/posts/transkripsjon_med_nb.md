@@ -24,7 +24,7 @@ Det finnes mange typer KI-modeller. Språkmodeller (LLM'er) er bare en av mange.
 Treningsdataene som er brukt stammer fra [Språkbanken](https://www.nb.no/sprakbanken/) og Nasjonalbiblioteket sin digitale samling, og inkluderer:
 
 * [NST norsk ATG-database](https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-13/)
-* [Stortingskorpuset](Stortingskorpuset 2.0)
+* [Stortingskorpuset 2.0](https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-84/)
 * [TV-programmer (NRK) med teksting](https://www.nb.no/en/the-collection/)
 * [Lydbøker](https://www.nb.no/en/the-collection/)
 
