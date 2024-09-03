@@ -45,7 +45,7 @@ En av de viktigste endringene fra ChatVTFK til Hugin og Munin er at tjenesten ha
 Funksjonen der man kan samtale med lærebøker er et veldig interessant eksempel på hvordan KI-teknologi kan brukes i undervisningen. Her utnyttes språkmodellens store styrke; formuleringsevnen, til å forklare og gi eksempler som er hentet fra en kvalitetssikret kilde. På denne måten vil responsen fra Hugin være vesentlig mer pålitelig enn hvis man hadde brukt en generisk tjeneste som ChatGPT. I tillegg til at responsen er mer pålitelig vil den også oppgi kilde og gi brukeren mulighet til å gå videre og lese mer om emnet i læreboka.
 
 ![Bilde av en samtale med en lærebok](./images/Artikler/HuginMunin/Samtale_Matematikk.png)
-*Bilde: Samtale i Hugin med læreboka "Matematikkens byggesteiner" skrevet av Sindre Sogge Heggen med lisens [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.no)*
+*Bilde: Samtale i Hugin med læreboka "[Matematikkens byggesteiner](https://sindreheggen.wordpress.com/boker/)" skrevet av [Sindre Sogge Heggen](https://sindrsh.github.io/openmathbooks/) med lisens [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.no)*
 
 Her kunne vi kanskje stoppet, men det er nå vi virkelig kan utnytte teknologien til noe interessant. Lærebøker har ofte oppgaver for at man skal kunne trene på temaet man jobber med. Til oppgavene finnes deg også en fasit.  Hva om vi kunne bruke Hugin til å forklare oppgavene og eksemplene i læreboka på en enkel og forståelig måte, og i tillegg på arabisk? 
 
