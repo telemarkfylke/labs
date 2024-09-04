@@ -3,8 +3,8 @@ site_name: labs@telemarkfylke
 theme:
   name: material
   language: nb
-  logo: images/Telemark_logo.png
-  favicon: images/Telemark_logo.png
+  logo: images/Lab.png
+  favicon: images/Lab.png
   features:
     - toc.integrate
     - search.suggest
