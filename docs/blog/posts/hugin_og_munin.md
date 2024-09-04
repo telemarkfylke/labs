@@ -23,12 +23,10 @@ Det opprinnelige formålet med ChatVTFK var å tilby en KI-tjeneste som gjorde d
 
 Med denne symbolikken ønsker vi å ta med oss ChatVTFK over i de to nye fylkene. Hugin i Telemark, og Munin i Vestfold. Ikke bare som to kopier av den gamle versjonen, men en ny og videreutviklet versjon med nytt design og ny funksjonalitet.
 
-**Hugin gjør det mulig å ta i bruk en fremvoksende teknologi i hele organisasjonen på en ansvarlig måte.**
-
-Hovedmålgruppen for Hugin og Munin er fortsatt elever og ansatte i Vestfold og Telemark fylkeskommuner, men tanken er også at Hugin skal hjelpe alle ansatte til med å prøve seg fram og kanskje forbedre vår forståelse hvilke mulighetenr som finnes med bruk av KI-teknologi.
-
 ## Hvorfor bør fylkeskommunen lage sin egen KI-tjeneste?
 Det er mange gode grunner til at vi bør ha en egen KI-tjeneste i fylkeskommunen. Det opprinnelige formålet med ChatVTFK, og nå Hugin, var å kunne tilby elever og lærere relevant teknologi på en ansvarlig måte. Med en ansvarlig KI-tjeneste menes at det er tatt hensyn til personvern, informasjonssikkerhet og etikk. Det er gjort flere designvalg for at tjenesten skal være så godt egnet som mulig til bruk i klasserommet. Ved å utvikle vår egen tjeneste er vi heller ikke prisgitt kommersielle aktører, som kanskje har andre målsettinger for teknologien enn oss. 
+
+**Hugin gjør det mulig å ta i bruk en fremvoksende teknologi i hele organisasjonen på en ansvarlig måte.**
 
 I september 2024 kom Riksrevisjonen med en [rapport](https://www.riksrevisjonen.no/rapporter-mappe/no-2023-2024/bruk-av-kunstig-intelligens-i-staten/) om bruk av kunstig intelligens i staten. Der kan vi lese at:
 
