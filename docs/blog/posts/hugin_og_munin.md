@@ -24,7 +24,7 @@ Det opprinnelige formålet med ChatVTFK var å tilby en KI-tjeneste som gjorde d
 Med denne symbolikken ønsker vi å ta med oss ChatVTFK over i de to nye fylkene. Hugin i Telemark, og Munin i Vestfold. Ikke bare som to kopier av den gamle versjonen, men en ny og videreutviklet versjon med nytt design og ny funksjonalitet.
 
 ## Hvorfor bør fylkeskommunen lage sin egen KI-tjeneste?
-Det er mange gode grunner til at vi bør ha en egen KI-tjeneste i fylkeskommunen. Det opprinnelige formålet med ChatVTFK, og nå Hugin, var å kunne tilby elever og lærere relevant teknologi på en ansvarlig måte. Med en ansvarlig KI-tjeneste menes at det er tatt hensyn til personvern, informasjonssikkerhet og etikk. Det er gjort flere designvalg for at tjenesten skal være så godt egnet som mulig til bruk i klasserommet. Ved å utvikle vår egen tjeneste er vi heller ikke prisgitt kommersielle aktører, som kanskje har andre målsettinger for teknologien enn oss. 
+Det er mange gode grunner til at vi bør ha en egen KI-tjeneste i fylkeskommunen. Det opprinnelige formålet med ChatVTFK, og nå Hugin, var å kunne tilby elever og lærere relevant teknologi på en ansvarlig måte. Med en ansvarlig KI-tjeneste menes at det er tatt hensyn til personvern, informasjonssikkerhet og etikk. Det er gjort flere designvalg for at tjenesten skal være så godt egnet som mulig til bruk i klasserommet. Ved å utvikle vår egen tjeneste er vi heller ikke prisgitt kommersielle aktører som kanskje har andre målsettinger for teknologien enn oss. 
 
 **Hugin gjør det mulig å ta i bruk en fremvoksende teknologi i hele organisasjonen på en ansvarlig måte.**
 
@@ -49,18 +49,16 @@ Her kunne vi kanskje stoppet, men det er nå vi virkelig kan utnytte teknologien
 ![Bilde av en samtale med en lærebok](./images/Artikler/HuginMunin/Samtale_arabisk.png)
 *Bilde: Samtale med læreboka "Matematikkens byggesteiner" på arabisk*
 
-Ved å bruke kraftig språkmodellteknologi sammen med kvalitetssikrede datakilder kan vi legge til rette for at lærere og elever i større grad får mulighet til å tilpasse undervisningen til den enkelte elevs behov. Dette kan være en stor fordel for elever som har behov for ekstra hjelp, eller som har et annet morsmål enn norsk. Denne teknologien vil også være sosialt utjevnende på den måten at den kan gi elever som har behov for ekstra hjelp mulighet til å få den hjelpen de trenger, uavhengig av forhold hjemme eller andre ytre faktorer.
+Ved å bruke kraftig språkmodellteknologi sammen med kvalitetssikrede datakilder kan vi legge til rette for at lærere og elever i større grad får mulighet til å tilpasse undervisningen til den enkelte elevs behov. Dette kan være en stor fordel for elever som har behov for ekstra hjelp, eller som har et annet morsmål enn norsk. Denne teknologien vil også være sosialt utjevnende på den måten at alle får tilgang til det samme verktøyene og kan utnytte disse uavhengig av tid på døgnet, forhold hjemme eller andre ytre faktorer.
 
 ## NoraLLM og andre språkmodeller
 Fordelen med en egenutviklet KI-tjeneste som Hugin er at man i større grad kan tilpasse tjenesten til egne behov. Dette gjelder både funksjonalitet og innhold. En av de viktigste funksjonene i Hugin er at vi har tilgang til en norsk språkmodell, NoraLLM.
 
 Nora er en familie med norske språkmodeller utviklet av språkteknologigruppen ved Universitet i Oslo (UiO), i samarbeid med blant annet Nasjonalbiblioteket, og er trent på norske tekster (bokmål og nynorsk). Til forskjell fra store språkmodelleer som GPT-4o, så er ikke Nora-modellen i Hugin en ferdigutviklet samtalerobot, som er laget for chat. Nora-modellen har som formål å vise hvordan en språkmodell som er trent på norske data kan skape tekst som bedre representerer norsk språk og kultur. I tillegg er mindre, åpne og spesialiserte modeller mer bærekraftige enn de virkelig store språkmodellene, fra de store multinasjonale teknologiselskapene.
 
-Det er mange grunner til at vi ønsker å bruke NoraLLM i Hugin. En av de viktigste grunnene er at Nora er trent på norske tekster, og derfor er bedre egnet til å generere norsk tekst enn de store internasjonale modellene. Dette gjør at vi kan tilby en tjeneste som er bedre tilpasset norske forhold og som gir bedre resultater for brukerne.
-
 Vi har delt noen flere tanker om NoraLLM i en annen [artikkel](norskllm.md), der det drøftes hvorfor det er viktig å bruke norske språkmodeller i offentlig sektor.
 
-En av styrkene til Hugin er at vi selv kan velge mellom språkmodeller, og på den måten la brukerne selv velge hvilken som passer best til oppgaven de skal løse. I tillegg kan vi bevege oss mot å bruke mindre, åpne og spesialiserte modeller som er mer bærekraftige, personvernvennlige og etisk riktige å bruke enn noen av de store internasjonale modellene.
+En av styrkene til Hugin er at man kan velge mellom språkmodeller, og på den måten la brukerne selv velge hvilken som passer best til oppgaven de skal løse. I tillegg kan vi etter hver bruke mindre, åpne og spesialiserte modeller som er mer bærekraftige, personvernvennlige og etisk riktige å bruke enn noen av de store internasjonale modellene.
 
 ## Hva er så medaljens bakside?
 Det finnes mange gode grunner til å bruke KI-teknologi. Det er et kraftig verktøy, men det er også alt. Et verktøy som er velegnet til å løse mange oppgaver, men uegnet til andre. Kunnskap om å bruke riktig og best mulig verktøy til oppgaven som skal løses er en viktig kompetanse. I tillegg fører KI-teknologien med seg en rekke utfordringer som det er viktig å være klar over og ta på alvor. Det er derfor helt avgjørende at det finnes kontrollmekanismer for ansvarlig bruk og etiske retningslinjer for bruk av KI-teknologi i organisasjonen. Dette er et stort og komplekst felt, men desto viktigere å ha på plass før man går "all in" på KI-teknologi.
